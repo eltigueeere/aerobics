@@ -10,3 +10,24 @@
 | 8️⃣   | **K Closest Points to Origin** (LeetCode 973)                   | Array + Heap                   |
 | 9️⃣   | **LRU Cache** (LeetCode 146)                                    | Doubly LinkedList + HashMap    |
 | 🔟    | **Course Schedule / Task Scheduler** (LeetCode 207/210)         | Graph + Topological Sort       |
+
+
+Binary Search
+
+Sliding Window
+
+Linked List
+
+Trees
+
+Greedy Algorithm
+
+Dynamic Programming
+
+Graphs
+
+Monotonic Stack
+
+Bit Manipulation
+
+Threads (Hilos)
