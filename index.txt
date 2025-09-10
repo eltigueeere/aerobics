@@ -1,13 +1,13 @@
 ############  
 🔑 10 Técnicas más preguntadas en coding interviews
 Two Pointers
-Optimización de recorridos en arrays/strings (ej. detectar palíndromos, pares con suma objetivo).
+☑️✔️ Optimización de recorridos en arrays/strings (ej. detectar palíndromos, pares con suma objetivo).
 
 Sliding Window
-Encontrar subarrays o substrings con cierta propiedad (ej. longitud mínima, máxima suma, anagramas).
+☑️✔️ Encontrar subarrays o substrings con cierta propiedad (ej. longitud mínima, máxima suma, anagramas).
 
-Binary Search (y variantes en espacio de búsqueda)
-No solo en arrays ordenados, también en problemas de minimizar/maximizar bajo condición (ej. minimizar capacidad de un barco, sqrt(x)).
+BinarySearch (y variantes en espacio de búsqueda)
+☑️✔️ No solo en arrays ordenados, también en problemas de minimizar/maximizar bajo condición (ej. minimizar capacidad de un barco, sqrt(x)).
 
 Divide and Conquer
 Partir problemas grandes en subproblemas más chicos (ej. mergesort, quicksort, búsqueda de elemento pico).
