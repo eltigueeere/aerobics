@@ -1,0 +1,68 @@
+############  
+🔑 10 Técnicas más preguntadas en coding interviews
+Two Pointers
+Optimización de recorridos en arrays/strings (ej. detectar palíndromos, pares con suma objetivo).
+
+Sliding Window
+Encontrar subarrays o substrings con cierta propiedad (ej. longitud mínima, máxima suma, anagramas).
+
+Binary Search (y variantes en espacio de búsqueda)
+No solo en arrays ordenados, también en problemas de minimizar/maximizar bajo condición (ej. minimizar capacidad de un barco, sqrt(x)).
+
+Divide and Conquer
+Partir problemas grandes en subproblemas más chicos (ej. mergesort, quicksort, búsqueda de elemento pico).
+
+Greedy
+Selección local óptima esperando resultado global óptimo (ej. interval scheduling, Huffman coding).
+
+Dynamic Programming (Top-Down y Bottom-Up)
+Subproblemas recurrentes con sobreposición (ej. knapsack, subsecuencia más larga, caminos mínimos).
+
+Backtracking / DFS con poda
+Generar combinaciones/permutaciones/particiones (ej. N-Queens, combinaciones de sumas).
+
+Graph Traversals (BFS, DFS)
+Problemas de rutas, conectividad, ciclos, niveles (ej. shortest path en grid, componentes conectadas).
+
+Hashing + Sets/Maps
+Uso para búsquedas O(1) y detección rápida (ej. subarray con suma 0, primer carácter único).
+
+Heap / Priority Queue
+Manejo eficiente de “k mejores” o problemas de streaming (ej. top-k elementos, merging k listas).
+
+############  
+⚙️ 10 Algoritmos más preguntados
+
+Los clásicos que suelen aparecer como desafíos directos o como subrutinas en problemas más grandes:
+
+Binary Search (y variantes: búsqueda de rango, lower_bound, upper_bound).
+
+Merge Sort (divide y vencerás, base de muchos problemas de inversions counting).
+
+Quick Sort / Quick Select (para encontrar el k-ésimo elemento más grande/pequeño).
+
+Breadth-First Search (BFS) (shortest path en grafos no ponderados).
+
+Depth-First Search (DFS) (detección de ciclos, conectividad).
+
+Dijkstra’s Algorithm (shortest path en grafos ponderados positivos).
+
+Union-Find / Disjoint Set Union (DSU) (detección de ciclos, problemas de conectividad en grafos).
+
+Kadane’s Algorithm (máxima suma subarray en O(n)).
+
+KMP (Knuth–Morris–Pratt) (string matching eficiente).
+
+Trie-based Algorithms (autocomplete, prefix search, word search).
+
+############  Ejemplos típicos que aparecen en coding rounds:
+
+“Dado un array, encuentra el subarray de suma máxima” → Kadane + Sliding Window
+
+“Diseña un sistema de autocomplete” → Trie + Priority Queue
+
+“Encuentra la ruta más corta en un grid con obstáculos” → BFS / Dijkstra
+
+“Detecta ciclos en un grafo dirigido” → DFS + Union-Find
+
+“K-th largest element en un array gigante” → Quickselect / Heap
