@@ -1,4 +1,4 @@
-package aerobics.TwoPointers;
+package aerobics.twopointers;
 class Palindromo {
     public static boolean isPalindromo(String word) {
         String normalizedWord = word.replace(" ", "").toUpperCase();

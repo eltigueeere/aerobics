@@ -1,4 +1,4 @@
-package aerobics.TwoPointers;
+package aerobics.twopointers;
 
 import java.util.Arrays;
 import java.util.HashMap;
@@ -18,6 +18,7 @@ public class Suma {
             if(operation.containsKey(rest)){
                 indexs[0] = operation.get(rest);
                 indexs[1] = i;
+                return indexs;
             }
             operation.put(data[i], i);
         }

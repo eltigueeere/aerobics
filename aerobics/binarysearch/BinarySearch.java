@@ -1,4 +1,4 @@
-package aerobics.BinarySearch;
+package aerobics.binarysearch;
 
 public class BinarySearch {
     public static int binarySeach(int[] nums, int target) {

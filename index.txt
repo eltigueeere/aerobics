@@ -1,68 +1,170 @@
-############  
-🔑 10 Técnicas más preguntadas en coding interviews
-Two Pointers
-☑️✔️ Optimización de recorridos en arrays/strings (ej. detectar palíndromos, pares con suma objetivo).
+Plan de Práctica Semanal (Coding Interviews)
+🔹 Semana 1 – Fundamentos (Arrays, Strings, Hashing)
 
-Sliding Window
-☑️✔️ Encontrar subarrays o substrings con cierta propiedad (ej. longitud mínima, máxima suma, anagramas).
+Objetivo: Agarrar soltura con problemas básicos.
+Temas: Hashing, Two Pointers, Sliding Window, Kadane.
 
-BinarySearch (y variantes en espacio de búsqueda)
-☑️✔️ No solo en arrays ordenados, también en problemas de minimizar/maximizar bajo condición (ej. minimizar capacidad de un barco, sqrt(x)).
+Día 1:
 
-Divide and Conquer
-Partir problemas grandes en subproblemas más chicos (ej. mergesort, quicksort, búsqueda de elemento pico).
+Two Sum (HashMap).
 
-Greedy
-Selección local óptima esperando resultado global óptimo (ej. interval scheduling, Huffman coding).
+Primer carácter único en string.
 
-Dynamic Programming (Top-Down y Bottom-Up)
-Subproblemas recurrentes con sobreposición (ej. knapsack, subsecuencia más larga, caminos mínimos).
+Día 2:
 
-Backtracking / DFS con poda
-Generar combinaciones/permutaciones/particiones (ej. N-Queens, combinaciones de sumas).
+☑️✔️ Verificar si string es palíndromo (Two Pointers).
 
-Graph Traversals (BFS, DFS)
-Problemas de rutas, conectividad, ciclos, niveles (ej. shortest path en grid, componentes conectadas).
+Merge de dos arrays ordenados.
 
-Hashing + Sets/Maps
-Uso para búsquedas O(1) y detección rápida (ej. subarray con suma 0, primer carácter único).
+Día 3:
 
-Heap / Priority Queue
-Manejo eficiente de “k mejores” o problemas de streaming (ej. top-k elementos, merging k listas).
+Subarray de longitud k con suma máxima (Sliding Window).
 
-############  
-⚙️ 10 Algoritmos más preguntados
+Substring más largo sin repetir caracteres.
 
-Los clásicos que suelen aparecer como desafíos directos o como subrutinas en problemas más grandes:
+Día 4:
 
-Binary Search (y variantes: búsqueda de rango, lower_bound, upper_bound).
+Detectar anagramas en string (Sliding Window).
 
-Merge Sort (divide y vencerás, base de muchos problemas de inversions counting).
+Subarray con suma = 0 (Hashing).
 
-Quick Sort / Quick Select (para encontrar el k-ésimo elemento más grande/pequeño).
+Día 5:
 
-Breadth-First Search (BFS) (shortest path en grafos no ponderados).
+Kadane (máxima suma subarray).
 
-Depth-First Search (DFS) (detección de ciclos, conectividad).
+Versión mínima suma subarray.
 
-Dijkstra’s Algorithm (shortest path en grafos ponderados positivos).
+Día 6-7 (Review):
 
-Union-Find / Disjoint Set Union (DSU) (detección de ciclos, problemas de conectividad en grafos).
+Repite los problemas y agrega variantes.
 
-Kadane’s Algorithm (máxima suma subarray en O(n)).
+Haz 1 mock test en LeetCode "Easy" tag.
 
-KMP (Knuth–Morris–Pratt) (string matching eficiente).
+🔹 Semana 2 – Búsquedas y Divide & Conquer
 
-Trie-based Algorithms (autocomplete, prefix search, word search).
+Objetivo: Dominar búsquedas y recursión.
+Temas: Binary Search, Divide & Conquer (MergeSort, QuickSort, Peak Element).
 
-############  Ejemplos típicos que aparecen en coding rounds:
+Día 8:
 
-“Dado un array, encuentra el subarray de suma máxima” → Kadane + Sliding Window
+Binary Search clásico.
 
-“Diseña un sistema de autocomplete” → Trie + Priority Queue
+Buscar número en array rotado.
 
-“Encuentra la ruta más corta en un grid con obstáculos” → BFS / Dijkstra
+Día 9:
 
-“Detecta ciclos en un grafo dirigido” → DFS + Union-Find
+Buscar sqrt(x) con binary search.
 
-“K-th largest element en un array gigante” → Quickselect / Heap
+Problema de "Capacity to Ship Packages within D Days".
+
+Día 10:
+
+Implementar Merge Sort.
+
+Contar inversiones en un array (usando MergeSort).
+
+Día 11:
+
+QuickSort.
+
+Quickselect (k-th largest element).
+
+Día 12:
+
+Peak Element (binary search).
+
+Rotated Sorted Array – Find Minimum.
+
+Día 13-14 (Review):
+
+Repasa binary search + sorting.
+
+Mock test en LeetCode "Binary Search" + "Sorting".
+
+🔹 Semana 3 – Grafos y Greedy
+
+Objetivo: Meter grafos y greedy que son frecuentes en entrevistas.
+Temas: BFS, DFS, Union-Find, Greedy, Heap.
+
+Día 15:
+
+BFS en grid (shortest path con obstáculos).
+
+DFS para contar islas.
+
+Día 16:
+
+Detectar ciclos en grafo dirigido (DFS).
+
+Componentes conectadas (DFS/BFS).
+
+Día 17:
+
+Interval Scheduling (Greedy).
+
+Huffman Coding (Greedy + Heap).
+
+Día 18:
+
+Minimum Spanning Tree con Kruskal (Union-Find).
+
+Detectar ciclos en grafo no dirigido (Union-Find).
+
+Día 19:
+
+K-th largest element con Heap.
+
+Top-k elementos más frecuentes (Heap + HashMap).
+
+Día 20-21 (Review):
+
+Repasa grafos + greedy + heaps.
+
+Mock test en LeetCode "Graph" + "Heap".
+
+🔹 Semana 4 – Hardcore (DP, Backtracking, String Matching)
+
+Objetivo: Cerrar con lo más temido y exigente en entrevistas top.
+Temas: Dynamic Programming, Backtracking, Dijkstra, KMP, Trie.
+
+Día 22:
+
+DP: Knapsack básico.
+
+DP: Longest Increasing Subsequence.
+
+Día 23:
+
+DP: Minimum Path Sum en grid.
+
+DP: Edit Distance (levenshtein).
+
+Día 24:
+
+Backtracking: N-Queens.
+
+Backtracking: Combinaciones que suman a target.
+
+Día 25:
+
+Backtracking: Permutaciones de array con duplicados.
+
+Sudoku Solver (Backtracking + pruning).
+
+Día 26:
+
+Dijkstra’s Algorithm.
+
+Network Delay Time (Dijkstra).
+
+Día 27:
+
+KMP (string matching).
+
+Trie básico (insert + search).
+
+Día 28 (Final Review):
+
+Proyecto final: Autocomplete system con Trie + Heap.
+
+Mock test "Mixed Hard" en LeetCode.

@@ -1,4 +1,4 @@
-package aerobics.SlidingWindow;
+package aerobics.slidingwindow;
 
 import java.util.HashSet;
 // Esto se puede hacer mas optimo usando el hasMap donde la Key es el caracter 
