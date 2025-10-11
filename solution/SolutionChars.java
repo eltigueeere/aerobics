@@ -1,50 +1,41 @@
 package solution;
 
 import java.util.ArrayList;
-import java.util.Arrays;
 import java.util.List;
 
 public class SolutionChars {
 
-    public static void estanLosChar(char[][] matriz, String word) {
-        int row = matriz.length;
-        int col = matriz[0].length;
-        char[] worChar = word.toCharArray();
-        int starChar = 0;
-        int indexList = 0;
-        char[] getChar = new char[worChar.length];
+    public static boolean estanLosChar(char[][] matriz, String word) {
         List<Character> list = new ArrayList<>();
-        for (int i = 0; i < row; i++) {
-            for (int j = 0; j < col; j++) {
-                list.add(matriz[i][j]);
+        for (char[] fila : matriz) {
+            for (char c : fila) {
+                list.add(c);
             }
-        }
-        while (starChar < worChar.length || indexList < list.size() ) {
-            if (worChar[starChar] == list.get(indexList)) {
-                getChar[starChar] = worChar[starChar];
-                starChar++;
-            }
-            indexList ++;
-        }
-        System.out.println(Arrays.toString(getChar) + " VS " + Arrays.toString(worChar));
-        if (Arrays.toString(getChar).equals(Arrays.toString(worChar))) {
-            System.out.println("Si esta");
-        } else {
-            System.out.println("No esta");
         }
 
+        int i = 0; // índice en word
+        for (char c : list) {
+            if (c == word.charAt(i)) {
+                i++;
+                if (i == word.length()) { // se encontró toda la palabra
+                    return true;
+                }
+            }
+        }
+
+        return false; // si termina el loop sin completar la palabra
     }
 
     public static void main(String[] args) {
         char[][] matriz = {
-                { 'M', 'N', 'O', 'P' },
-                { 'E', 'F', 'G', 'H' },
-                { 'A', 'B', 'C', 'D' },
-                { 'I', 'J', 'K', 'L' }
+            { 'M', 'N', 'O', 'P' },
+            { 'E', 'F', 'G', 'H' },
+            { 'A', 'B', 'C', 'D' },
+            { 'I', 'J', 'K', 'L' }
         };
+
         String word = "NGBCKL";
-        estanLosChar(matriz, word);
 
+        System.out.println(estanLosChar(matriz, word) ? "Sí está" : "No está");
     }
-
 }
